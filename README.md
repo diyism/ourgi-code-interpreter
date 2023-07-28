@@ -1,5 +1,3 @@
-***************************** 用的 openai 的lib, 无法定制 OPENAI_BASE_URL **************
-
 <img src="https://github.com/ricklamers/gpt-code-ui/assets/1309307/9ad4061d-2e26-4407-9431-109b650fb022" alt="GPT-Code logo" width=240 />
 
 An open source implementation of OpenAI's ChatGPT [Code interpreter](https://openai.com/blog/chatgpt-plugins#code-interpreter).
@@ -17,7 +15,7 @@ Open a terminal and run:
 
 ```
 pip install gpt-code-ui
-gptcode
+OPENAI_API_BASE=http://127.0.0.1:8078/v1 gptcode
 ```
 
 In order to make basic dependencies available it's recommended to run the following `pip` install
